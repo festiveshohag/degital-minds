@@ -72,3 +72,86 @@
       /* margin-right: 30px; */
       /* border: 2px solid rebeccapurple     */
     }
+    .boyRight{
+        width: 50%;
+      }
+      .highQuality{
+        width: 542px;
+      margin-top: 54px;
+      }
+      .highQuality h1{
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 0px;
+      }
+      .onlineCls{
+        width: 160px;
+        /* height: 24px; */
+        color: #96BB7C;
+        margin: 0px;
+        font-size: 18px;
+      }
+      .secondLeftCls{
+        width: 458px;;
+        margin-top: 30px;
+      }
+      .secondLeftCls h4{
+        color: #737373;
+        font-size: 25px;
+        margin: 0px;
+      }
+      .getQuoteDiv{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 30px;
+      }
+      .getQuoteLeft{
+        height: 52px;
+        width: 195px;
+        background-color: #96BB7C;
+        border-radius: 5px;   
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px;
+        color: #FFFFFF;
+      }
+      .getQuoteRight{
+        height: 52px;
+        width: 162px;
+        border: 1px solid #96BB7C;
+        margin-left: 10px;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px;
+        color: #96BB7C;
+      }
+      .secondBody{
+        height: 750px;
+      /* background-color: #96BB7C; */
+      }
+      .secondBodyInner{
+        height: 725px;
+        margin: 0px 150px 24px 150px;
+        /* background-color: beige; */
+        overflow: auto; /*this is very important otherwise the child div top margin will not work. */
+      }
+      .secondBodyInnerTwo{
+        width: 620px;  
+      }
+      .ourPopularCls{
+        height: 134px;
+        margin-top: 112px;
+      }
+      .ourPopularCls h2{
+        margin: 10px 0px;
+        height: 50px;
+        font-size: 40px;
+      }
+      .ourPopularCls p{
+        width: 450px;
+        height: 40px;
+        color: #737373;
+        margin: 0px;
+      }
