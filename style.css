@@ -329,3 +329,201 @@
         height: 600px;
         background-color: aqua;
       }
+      /* Expert Teachers Section CSS Here */
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  .pricing {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .pricing-tables {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .pricing-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .price-header {
+    text-align: center;
+  }
+  
+  .price-header h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #65b36b;
+  }
+  
+  .price {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .price small {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .features {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .features p {
+    margin: 10px 0;
+  }
+  
+  .features p span {
+    color: #65b36b;
+    margin-right: 10px;
+  }
+  
+  .cta {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #65b36b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cta-btn:hover {
+    background-color: #4a8c50;
+  }
+  
+  /* Featured card styles */
+  .featured {
+    background-color: #1d3557;
+    color: white;
+  }
+  
+  .featured .price-header h2,
+  .featured .price small {
+    color: white;
+  }
+  
+  .featured .features p span {
+    color: white;
+  }
+  
+  .featured .cta-btn {
+    background-color: white;
+    color: #1d3557;
+  }
+  
+  .new-badge {
+    background-color: #ff7f50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+  
+  
+  /* Testimonials CSS Starts Here */
+  
+  .testimonials{
+    margin: 100px auto;
+    padding: 50px 20px;
+  }
+  
+  .allTestimonials{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .testItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testItems img{
+    width: 128px;
+    border-radius: 50%;
+  }
+  
+  .testItems p{
+    text-align: center;
+    color: var(--clr-second-text);
+    font-size: var(--fs-light);
+    margin-bottom: 15px;
+    width: 300px;
+  }
+  
+  .testItems h5{
+    font-size: var(--fs-small);
+    color: var(--clr-text);
+    margin-bottom: 5px;
+  }
+  
+  .testItems h6{
+    color: var(--clr-second-text);
+    font-size: var(--fs-light);
+  }
+  
+  .review{
+    color: var(--clr-secondary);
+    margin-bottom: 15px;
+  }
+  
+  /* Subscribe CSS Starts Here */
+  
+  .subscribe{
+    background-color: var(--clr-pink);
+    padding: 150px 0;
+  }
+  
+  .subContainer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subContainer h6{
+    color: var(--clr-primary);
+    font-size: var(--fs-light);
+    margin-bottom: 10px;
+  }
+  
+  .subContainer h2{
+    color: var(--clr-text);
+    font-size: var(--fs-x);
+    margin-bottom: 10px;
+  }
